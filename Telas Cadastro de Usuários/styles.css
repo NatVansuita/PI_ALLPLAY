@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 10;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.body{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 100vh;
+    background: url('./Img/Captura\ de\ tela\ 2025-08-18\ 102448.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    width: 50px 60px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #fff;
+    border-radius: 20px;
+    color: #000000;
+    padding: 30px 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
