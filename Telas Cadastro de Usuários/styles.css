@@ -26,7 +26,7 @@ body {
 /* Metade esquerda: imagem */
 .image {
   flex: 1;                       /* ocupa metade do container */
-  background: url("./Img/Captura\ de\ tela\ 2025-08-18\ 102448.png"); /* define imagem de fundo */
+  background: url("./Img/Captura\ de\ tela\ 2025-08-18\ 102448.png")  no-repeat center center; /* define imagem de fundo */
   background-size: cover;        /* ajusta imagem para cobrir todo o espaço sem distorcer */
 }
 
@@ -41,10 +41,10 @@ body {
 /* Estilo do formulário */
 form {
   background: #fff;              /* fundo branco */
-  padding: 10px 20px;            /* espaçamento interno */
+  padding: 20px 30px;            /* espaçamento interno */
   border-radius: 10px;           /* cantos arredondados */
   box-shadow: 0 4px 15px rgba(0,0,0,0.2); /* sombra para profundidade */
-  width: 800px;                  /* largura fixa */
+  width: 900px;                  /* largura fixa */
 }
 
 /* Título do formulário */
